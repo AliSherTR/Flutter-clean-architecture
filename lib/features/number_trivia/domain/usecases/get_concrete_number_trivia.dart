@@ -5,7 +5,6 @@ import 'package:clean_architecture/features/number_trivia/domain/repositories/nu
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 
-// this is a repository contract
 class GetConcreteNumberTrivia extends Usecase<NumberTrivia, Params> {
   final NumberTriviaRepository repository;
 
